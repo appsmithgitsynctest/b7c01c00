@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Search",
-    "slug": "search",
+    "name": "Search2",
+    "slug": "search2",
     "layouts": [
       {
         "viewMode": false,
@@ -565,7 +565,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1675077215379,
+                      "columnUpdatedAt": 1675077258753,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -883,7 +883,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1675077215379,
+                      "columnUpdatedAt": 1675077258753,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -1336,6 +1336,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Search2_getAllCustomers",
               "name": "getAllCustomers",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1345,6 +1346,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search2_getAllOrders",
               "name": "getAllOrders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1357,7 +1359,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Search",
+        "id": "Search2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -1368,5 +1370,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "63d7a630a2254941a844a467_63d7a659a2254941a844a473"
+  "gitSyncId": "63d7a66fa2254941a844a4ab_63d7a688a2254941a844a4e9"
 }
